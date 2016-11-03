@@ -1,7 +1,10 @@
 body {
-	background-color: black;
+	background-color: #E1E1E1;
+
 }
 
-h1, p {
-	color: gold;
+h1, h2, h3, h4, p, ul, li {
+	color: black;
+	font-family: Helvetica;
+	font-kerning: .5pt;
 }
