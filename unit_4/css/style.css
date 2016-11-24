@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Oswald:300,700|Roboto+Slab:300,700');
+
+body {
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-style: 300;
+	background-color: #fff;
+	color: #000;
+}
+
+h1{
+	font-kerning: .5pt;
+	font-size: 40px;
+	padding-top: 100px;
+	font-family: 'Roboto Slab', Georgia, Times, serif;
+	font-style:700;
+	font-size: 50px;
+    line-height: 1.5em;
+}
+
+h2 {
+	font-kerning: 1pt;
+	font-style: bold;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-family: 'Oswald', 'Open Sans', sans-serif;
+	font-style:500;
+	font-size: 15px;
+	} 
+
+h3 { 
+	font-family: 'Roboto Slab', Georgia, Times, serif;
+	font-style:300;
+	font-kerning: 1pt;
+	font-size: 25px;
+}
+
+h4{
+	font-kerning: .5pt;
+	font-size: 36px;
+    font-family: 'Roboto Slab', Georgia, Times, serif;
+	font-style:300;
+	font-size: 20px;
+    line-height: 1.5em;
+}
+
+
+h5{
+	font-kerning: .5pt;
+	font-size: 18px;
+	font-style:300;
+}
+
+h6{
+	font-kerning: 1pt;
+	font-size: 20px;
+    text-transform: uppercase;
+}
+
+p {
+	font-kerning: .5pt;
+	font-size: 30px;
+    line-height: 1.5em;
+    margin-left: 0px;
+	font-style:300;
+	font-size: 20px;
+    line-height: 1.5em;
+}
+
+ul{
+	font-kerning: .5pt;
+	font-size: 30px;
+    line-height: 1.5em;
+	font-style:300;
+	font-size: 20px;
+    line-height: 1.5em;
+}
+
+li{
+	font-kerning: .5pt;
+	font-size: 30px;
+    line-height: 1.5em;
+	font-style:300;
+	font-size: 14px;
+}
+
+li a {
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	display: inline;
+    float: right;
+    color: #111;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+	font-style:300;
+	font-size: 15px;
+	margin: 1em;
+}
+
+li a:hover {
+    color: blue;
+}
+
+li a:press {
+    color: gray;
+}
+
+ul{
+	list-style-type: none;
+	text-align: left;
+	font-size: 20px;
+}
+
+img {
+	max-width: 200px;
+}
+
+a {
+	color: #2958FF;
+	font-size: 20px;
+}
+
+#subheader {
+	font-style: 400;
+	font-kerning: .10pt;
+	font-size: 30px;
+	margin: 0em;
+	padding-bottom: 100px;
+}
+
+.dark {
+	background-color: black;
+	color: white;
+	padding-top: 40px;
+	padding-bottom: 50px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+
+.logos {
+    width: 25%;
+    height: auto;
+    margin: 0 0 3px 3px;
+    vertical-align: top;
+    overflow: hidden;
+    float: none;
+    display: inline-block;
+    padding-left: 50px;
+    border: 1px solid #111;
+}
