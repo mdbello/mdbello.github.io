@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Oswald:300,700|Roboto+Slab:300,700');
+
+body {
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-style: 300;
+	background-color: #fff;
+	color: #000;
+}
+
+h1{
+	font-kerning: .5pt;
+	font-size: 40px;
+	padding-top: 100px;
+	font-family: 'Roboto Slab', Georgia, Times, serif;
+	font-style:700;
+	font-size: 50px;
+    line-height: 1.5em;
+}
+
+h2 {
+	font-kerning: 1pt;
+	font-style: bold;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-family: 'Oswald', 'Open Sans', sans-serif;
+	font-style:500;
+	font-size: 15px;
+	} 
+
+h3 { 
+	font-family: 'Roboto Slab', Georgia, Times, serif;
+	font-style:300;
+	font-kerning: 1pt;
+	font-size: 25px;
+}
+
+h4{
+	font-kerning: .5pt;
+	font-size: 36px;
+    font-family: 'Roboto Slab', Georgia, Times, serif;
+	font-style:300;
+	font-size: 20px;
+    line-height: 1.5em;
+}
+
+
+h5{
+	font-kerning: .5pt;
+	font-size: 18px;
+	font-style:300;
+}
+
+h6{
+	font-kerning: 1pt;
+	font-size: 20px;
+    text-transform: uppercase;
+    display: inline;
+    margin: 1em;
+}
+
+p {
+	font-kerning: .5pt;
+	font-size: 30px;
+    line-height: 1.5em;
+    max-width: 650px;
+	font-style:300;
+	font-size: 20px;
+    line-height: 1.5em;
+}
+
+ul{
+    line-height: 1.5em;
+	font-style:300;
+    list-style-type: none;
+	text-align: left;
+	display: inline;
+}
+
+li{
+	font-kerning: .5pt;
+	font-size: 30px;
+    line-height: 1.5em;
+	font-style:300;
+	font-size: 14px;
+}
+
+li a {
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	display: inline;
+    float: right;
+    color: #111;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+	font-size: 15px;
+	margin: 0em 1em;
+}
+
+li a:hover {
+    color: blue;
+}
+
+li a:press {
+    color: gray;
+}
+
+img {
+	max-width: 200px;
+}
+
+a {
+	color: #2958FF;
+	font-size: 20px;
+}
+
+header{
+	background-color: #FFED74;
+	border: 1px solid black;
+}
+
+nav {
+	background-color: #E8C66A;
+	border: 1px solid black;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px solid black;
+}
+
+aside {
+	background-color: #FFC675;
+	border: 1px solid black;
+}
+
+#wrapper {
+	width: 1300px;
+	margin: auto;
+	background-color: #FFE2B8;
+	border: 1px solid black;
+}
+
+#skills {
+	background-color: #FFE2B8;
+	border: 1px solid black;
+}
+
+#projects {
+	background-color: #FFE2B8;
+	border: 1px solid black;
+}
+
+#brands {
+	background-color: #FFE2B8;
+	border: 1px solid black;
+}
+
+#subheader {
+	font-style: 400;
+	font-kerning: .10pt;
+	font-size: 30px;
+	margin: 0em;
+	padding-bottom: 100px;
+}
+
+.logos {
+    width: 30%
+    border: 1px solid #111;
+}
