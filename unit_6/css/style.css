@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Oswald:300,700|Roboto+Slab:300,700');
+
+body {
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-style: 300;
+	background-color: #F2F3F5;
+	color: #000;
+}
+
+h1{
+	font-kerning: .5pt;
+	font-size: 40px;
+	padding-top: 100px;
+	font-family: 'Roboto Slab', Georgia, Times, serif;
+	font-style:700;
+    line-height: 1.5em;
+}
+
+h2 {
+	font-kerning: 1pt;
+	text-transform: uppercase;
+	font-family: 'Oswald', 'Open Sans', sans-serif;
+	font-style:500;
+	font-size: 15px;
+	} 
+
+h3 { 
+	font-family: 'Roboto Slab', Georgia, Times, serif;
+	font-style:300;
+	font-kerning: 1pt;
+	font-size: 25px;
+}
+
+h4{
+	font-kerning: .5pt;
+	font-size: 36px;
+    font-family: 'Roboto Slab', Georgia, Times, serif;
+	font-style:300;
+    line-height: 1.5em;
+}
+
+
+h5{
+	font-kerning: .5pt;
+	font-size: 18px;
+	font-style:300;
+}
+
+h6{
+	font-kerning: 1pt;
+	font-size: 20px;
+    text-transform: uppercase;
+    display: inline;
+    margin: 1em;
+}
+
+p {
+	font-kerning: .5pt;
+	font-size: 20px;
+    line-height: 1.5em;
+    max-width: 650px;
+	font-style:300;
+    line-height: 1.5em;
+}
+
+ul{
+    line-height: 1.5em;
+	font-style:300;
+    list-style-type: none;
+	text-align: left;
+	display: inline;
+}
+
+li{
+	font-kerning: .5pt;
+	font-size: 30px;
+    line-height: 1.5em;
+	font-style:300;
+	font-size: 14px;
+}
+
+li a {
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	display: inline;
+    float: right;
+    color: #111;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+	font-size: 15px;
+	margin: 0em 1em;
+}
+
+li a:hover {
+    color: blue;
+}
+
+li a:press {
+    color: gray;
+}
+
+img {
+	max-width: 200px;
+}
+
+a {
+	color: #2958FF;
+	font-size: 20px;
+}
+
+hr{
+	color: 1px solid #000;
+	padding: 20px 0px;
+}
+
+header{
+	background-color: #F2F3F5;
+}
+
+nav {
+	background-color: #F2F3F5;
+}
+
+footer {
+	background-color: #000;
+	color: #FFF;
+}
+
+aside {
+	background-color: #FFF;
+}
+
+#wrapper {
+	width: 1200px;
+	margin: auto;
+	background-color: #FFF;
+}
+
+#skills {
+	background-color: #000;
+	color: #FFF;
+	padding: 20px;
+}
+
+#projects {
+	background-color: #FFF;
+	padding: 20px;
+}
+
+#left {
+	background-color: #FFF;
+	border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right{
+	background-color: #FFF;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 62%;
+}
+
+#digital{
+	background-color: #000;
+	color: #FFF;
+}
+
+#branding{
+	background-color: #000;
+	color: #FFF;
+}
+
+#brands {
+	background-color: #FFF;
+}
+
+#subheader {
+	font-style: 400;
+	font-kerning: .10pt;
+	font-size: 30px;
+	margin: 0em;
+	padding-left:20px;
+	padding-top:;
+	padding-bottom: 100px;
+}
+
+.logos {
+    width: 30%
+    border: 1px solid #111;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
