@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Oswald:300,700|Roboto+Slab:300,700');
+
+body {
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	background-color: #F2F3F5;
+	color: #000;
+	font-size: 16px;
+}
+
+h1{
+	font-size: 2.5em;
+	padding-top: .5em;
+	font-family: Georgia, Times, serif;
+    line-height: 1.5em;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	width: 980px;
+    margin: 0 auto;
+	} 
+
+h3 { 
+	font-family: Georgia, Times, serif;
+	font-size: 1.5em;
+}
+
+h4{
+	font-size: 2em;
+    font-family: Georgia, Times, serif;
+    line-height: 1.5em;
+}
+
+h5{
+	font-size: 1em;
+}
+
+h6{
+	font-size: 1em;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+p {
+	font-size: 1em;
+    line-height: 1.5em;
+}
+
+ul{
+    list-style-type: none;
+	text-align: left;
+}
+
+li{
+	font-kerning: .5pt;
+	font-size: 1em;
+    line-height: 1.5em;
+	font-style: 300;
+	font-size: .8em;
+}
+
+li a {
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	display: inline;
+    float: right;
+    color: #111;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+	font-size: 1em;
+	margin: 0em 1em;
+}
+
+li a:hover {
+    color: blue;
+}
+
+li a:press {
+    color: gray;
+}
+
+a {
+	color: #2958FF;
+	font-size: 1em;
+}
+
+hr{
+	color: 1px solid #000;
+}
+
+header{
+	background-color: #FFF;
+	padding: 100px 120px;
+}
+
+nav {
+	background-color: #F2F3F5;
+	padding: 20px 0px 20px 0px;
+}
+
+nav li{
+	display: inline-block;
+}
+
+nav ul{
+	display: inline-block;
+	float: right;
+}
+
+footer {
+	background-color: #000;
+	color: #FFF;
+	padding: 100px 120px;
+}
+
+aside {
+	background-color: #FFF; 
+}
+
+#wrapper {
+	width: 85%;
+	margin: auto;
+	background-color: #FFF;
+}
+
+#skills {
+	background-color: #000;
+	color: #FFF;
+	padding: 100px 120px;
+}
+
+#projects {
+	background-color: #FFF;
+}
+
+#left {
+    float: left;
+}
+
+
+#right{
+    float: right;   
+}
+
+#digital{
+	background-color: #000;
+	color: #FFF;
+	padding-top: 25px;
+}
+
+#branding{
+	background-color: #000;
+	color: #FFF;
+	padding-top: 25px;
+}
+
+#subheader {
+	font-size: 1.6em;
+	line-height: 1.8em
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.project-content{
+	position: absolute;
+	bottom: 1.5em;
+	left: 1.5em;
+}
+
+.featured-project{
+	background-color: rgba(0, 0, 0, 0.8);
+	color: #FFF;
+	width: 50%;
+    padding: 35% 0% 0% 0%;
+    position: relative;
+}
+
+#center{
+	text-align: center;
+}
+
+@media (max-width: 800px) {
+  body {
+  	font-size: 14px;
+  }
+
+  #wrapper {
+	width: 100%;
+  }
+
+  nav {
+    float: none;
+  }
+  
+  header{
+	padding: 50px 60px;
+  }
+
+  #skills {
+	padding: 50px 60px;
+  }
+
+  #left {
+    float: none;
+    width: auto;
+  }
+  
+  #right{ 
+  	float: none;
+  	width: auto;
+  }
+
+  nav a {
+    margin: 0 1.6em .75em 0;
+  }
+
+  img {
+    width: 320px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  body {
+  	font-size: 12px;
+  }
+
+  nav {
+    display: block;
+    text-align: center;
+  }
+
+  nav ul{
+	display: block;
+	float: none;
+	width: auto;
+	text-align: center;
+  }
+    nav a {
+    margin: 0 1em 1em;
+  }
+}

@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Oswald:300,700|Roboto+Slab:300,700');
+
+body {
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	background-color: #F2F3F5;
+	color: #000;
+	font-size: 16px;
+}
+
+h1{
+	font-size: 2.5em;
+	padding-top: .5em;
+	font-family: Georgia, Times, serif;
+    line-height: 1.5em;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	} 
+
+h3 { 
+	font-family: Georgia, Times, serif;
+	font-size: 1.5em;
+}
+
+h4{
+	font-size: 2em;
+    font-family: Georgia, Times, serif;
+    line-height: 1.5em;
+}
+
+h5{
+	font-size: 1em;
+}
+
+h6{
+	font-size: 1em;
+    text-transform: uppercase;
+    display: inline;
+}
+
+p {
+	font-size: 1em;
+    line-height: 1.5em;
+}
+
+ul{
+    list-style-type: none;
+	text-align: left;
+	display: inline;
+}
+
+li{
+	font-kerning: .5pt;
+	font-size: 1em;
+    line-height: 1.5em;
+	font-style: 300;
+	font-size: .8em;
+}
+
+li a {
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	display: inline;
+    float: right;
+    color: #111;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+	font-size: 1em;
+	margin: 0em 1em;
+}
+
+li a:hover {
+    color: blue;
+}
+
+li a:press {
+    color: gray;
+}
+
+a {
+	color: #2958FF;
+	font-size: 1em;
+}
+
+hr{
+	color: 1px solid #000;
+}
+
+header{
+	background-color: #FFF;
+	padding: 100px 120px;
+}
+
+nav {
+	background-color: #F2F3F5;
+}
+
+footer {
+	background-color: #000;
+	color: #FFF;
+	padding: 100px 120px;
+}
+
+aside {
+	background-color: #FFF; 
+}
+
+#wrapper {
+	width: 1200px;
+	margin: auto;
+	background-color: #FFF;
+}
+
+#skills {
+	background-color: #000;
+	color: #FFF;
+	padding: 100px 120px;
+}
+
+#projects {
+	background-color: #FFF;
+	padding: 100px 120px;
+}
+
+#left {
+	background-color: #FFF;
+	border: 1px black solid;
+    float: left;
+    width: 44%;
+    margin: 25px 0 0 0;
+    padding: 35% 0 5% 5%;
+}
+
+#right{
+	background-color: #FFF;
+    border: 1px black solid;
+    float: right;   
+    width: 44%;
+    margin: 25px 0 0 0;
+    padding: 35% 0 5% 5%;
+}
+
+#digital{
+	background-color: #000;
+	color: #FFF;
+	padding-top: 25px;
+}
+
+#branding{
+	background-color: #000;
+	color: #FFF;
+	padding-top: 25px;
+}
+
+#subheader {
+	font-size: 1.6em;
+	line-height: 1.8em
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#center{
+	text-align: center;
+}
+@media only screen and (max-width: 800px) {
+	nav{
+		
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	nav{
+		
+	}
+
+}
